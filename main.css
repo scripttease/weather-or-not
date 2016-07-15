@@ -1,9 +1,12 @@
 body {
   text-align: center;
   color: hotpink;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.background {
+.container {
+  margin: 125px;
 }
 
 #clear-day {

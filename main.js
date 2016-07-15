@@ -494,10 +494,8 @@
 	// Import CSS so it is loaded on the page
 	__webpack_require__(3);
 	
-	// Import a function from src/apirequestfetch.js
 	var apirequestfetch = __webpack_require__(7);
 	
-	// Call the imported function
 	apirequestfetch.getLocation(apirequestfetch.getAndShowWeather);
 
 
@@ -594,7 +592,7 @@
 	};
 	
 	function apirequestfetch(lat, lon) {
-	  var url =  "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=b916b345d07747cfa00b95973acb1c2a"
+	  var url =  "//api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=b916b345d07747cfa00b95973acb1c2a"
 	
 	    return fetch(url)
 	    .then(function(response) {
